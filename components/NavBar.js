@@ -35,28 +35,28 @@ function Navbar({ darkMode, toggleDarkMode }) {
       </h1>
 
       <ul className={`md:flex ${active}`}>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a href="#" className="nav-link text-gray-900  dark:text-white">
             Home
           </a>
-        </li>
+        </li> */}
         <li className="nav-item">
-          <a href="#" className="nav-link text-gray-900  dark:text-white">
+          <a href="#about" className="nav-link text-gray-900  dark:text-white">
             About
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link text-gray-900  dark:text-white">
+          <a href="#portfolio" className="nav-link text-gray-900  dark:text-white">
             Portfolio
           </a>
         </li>
         <li className="nav-item">
-          <a href="#" className="nav-link text-gray-900  dark:text-white">
+          <a href="#services" className="nav-link text-gray-900  dark:text-white">
             Services
           </a>
         </li>
         <li className="nav-item text-gray-900  dark:text-white">
-          <a href="#" className="nav-link">
+          <a href="#contact" className="nav-link">
             Contact
           </a>
         </li>

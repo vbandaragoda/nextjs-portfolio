@@ -15,6 +15,11 @@ const Footer = () => {
             </span>
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-black sm:mb-0 dark:text-gray-400">
+          <li>
+              <a href="/" className="mr-4 hover:underline md:mr-6 ">
+                Home
+              </a>
+            </li>
             <li>
               <a href="#about" className="mr-4 hover:underline md:mr-6 ">
                 About
@@ -41,9 +46,9 @@ const Footer = () => {
         <span className="block text-sm text-black sm:text-center dark:text-gray-400">
           © 2024{" "}
           <a href="/" className="hover:underline">
-            AngelsIdea™
+            {/* Vimukthi™ */}
           </a>
-          . All Rights Reserved.
+           All Rights Reserved.
         </span>
       </div>
     </footer>
